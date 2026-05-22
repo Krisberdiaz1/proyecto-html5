@@ -90,7 +90,51 @@ button:active {
     transform: scale(0.98);
 }
 
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background-color: #1a1a1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2d2d34;
+}
+
+th, td {
+    padding: 14px 18px;
+    text-align: left;
+}
+
+th {
+    background-color: #b8293d;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+tr {
+    border-bottom: 1px solid #2d2d34;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    color: #e2e8f0;
+}
+
 table button {
     background-color: #2d2d34;
     color: #e2e8f0;
-    padding:
+    padding: 6px 14px;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+table button:hover {
+    background-color: #b8293d;
+}
