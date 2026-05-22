@@ -1,0 +1,8 @@
+
+        .boton-enlace {
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
