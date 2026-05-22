@@ -3,18 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectojava</title>
-
-    <link rel="stylesheet" href="../segundaprueba/primero.css">
-
+    <title>Lista de estudiantes</title>
+    <!-- Sale de segundaprueba y entra a Prueba para buscar los estilos -->
+    <link rel="stylesheet" href="../Prueba/segundo.css">
 </head>
 <body>
 
-    <h1>Mi página web</h1>
+    <h1>Lista de estudiantes</h1>
 
-    <p>Haz clic aquí para <a href="../segundaprueba/index.html">Ir a Segundo HTML</a></p>
+    <form>
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+        </p>
+        
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+        </p>
+        
+        <p>
+            <label for="cedula">Cédula</label>
+            <input type="text" id="cedula">
+        </p>
 
+        <p>
+            <button type="button" id="btnagregar">Agregar</button>
+        </p>
+    </form>
 
-    <script src="../prueba/script.js"></script>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Cédula</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <p style="margin-top: 30px;">
+        <a href="../index.html" style="color: #b8293d; text-decoration: none; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem;">
+            ← Volver al Inicio
+        </a>
+    </p>
+    <script src="../Prueba/script.js"></script>
 </body>
 </html>
