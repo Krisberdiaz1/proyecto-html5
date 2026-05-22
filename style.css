@@ -1,8 +1,27 @@
+.boton-enlace {
+    display: inline-block;
+    text-align: center;
+    background-color: #b8293d;
+    color: #ffffff !important; /* Fuerza el color blanco sobre el rojo del enlace común */
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 20px;
+}
 
-        .boton-enlace {
-            display: inline-block;
-            text-align: center;
-            width: 100%;
-            max-width: 400px;
-            box-sizing: border-box;
-        }
+.boton-enlace:hover {
+    background-color: #941e2f;
+    text-decoration: none; /* Evita que se raye el texto al pasar el mouse */
+}
+
+.boton-enlace:active {
+    transform: scale(0.98);
+}
